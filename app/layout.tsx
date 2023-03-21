@@ -1,4 +1,7 @@
 import './globals.css'
+import localFont from '@next/font/local'
+
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="es">
+      <body className='font-["RusticaSL"]'>{children}</body>
     </html>
   )
 }
