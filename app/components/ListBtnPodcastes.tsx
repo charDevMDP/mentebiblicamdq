@@ -37,7 +37,7 @@ const ListBtnPodcastes = () => {
         { podcasters.length > 0 && (
           podcasters.map(pod => {
             return (
-              <BtnPodcaster logo={pod.logo} alt={pod.alt} name={pod.name} link={pod.link} />
+              <BtnPodcaster key={pod.name} logo={pod.logo} alt={pod.alt} name={pod.name} link={pod.link} />
             )
           })
         )}
