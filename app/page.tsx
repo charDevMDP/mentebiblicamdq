@@ -12,8 +12,8 @@ export default function Home() {
           <Header />
       </div>
 
-      <div className='text-white h-screen'>
-        <div className='flex justify-center flex-col px-5'> 
+      <div className='text-white h-screen md:hidden'>
+        <div className='h-screen flex justify-center items-center flex-col px-5'> 
           <Presentation/>
           <ListBtnPodcastes/>
         </div>

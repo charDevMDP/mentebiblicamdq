@@ -16,7 +16,7 @@ const Header = () => {
     </div>
     
     <div>
-    <Image style={{objectFit: "contain"}}	 className='h-full md:w-[480px] pl-8 md:mb-5 md:pl-0 2xl:w-[600px]' src={logo} alt={"Logo Mente Biblica"} />      
+    <Image style={{objectFit: "contain"}}	 className='h-full md:w-[460px] pl-8 md:mb-5 md:pl-0 2xl:w-[600px]' src={logo} alt={"Logo Mente Biblica"} />      
     </div>
     
 
