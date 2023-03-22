@@ -9,7 +9,7 @@ export default function Head() {
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#272727"/>
 
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/faviconMB.ico" />
     </>
   );
 }
