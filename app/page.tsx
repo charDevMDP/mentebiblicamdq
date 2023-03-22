@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className='text-white h-screen'>
           <Header />
-          <div onClick={() => goToTop()} className={styles.arrow}></div>
+          <div onClick={() => goToTop()} className={styles.arrow + ' ' + 'md:hidden'}></div>
       </div>
 
       <div className='text-white h-screen md:hidden' ref={presentacion}>
