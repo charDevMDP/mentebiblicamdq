@@ -9,7 +9,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        azulClaro: '#477BFF',
+        azulOscuro: '#00113D'
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animated"),
+  ],
 }

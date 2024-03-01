@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.background-gradient{
-  background: rgb(13,14,16);
-background: linear-gradient(45deg, rgba(13,14,16,1) 0%, rgba(75,78,87,1) 100%);
-}
-
 html {
   height: 100%;
 }
@@ -15,6 +10,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: #f2f2f2
 }
 
 @font-face{
