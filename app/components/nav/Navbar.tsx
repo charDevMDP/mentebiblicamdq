@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import { FaXmark, FaBarsStaggered  } from "react-icons/fa6";
 import Link from 'next/link'
 import { useRouter, usePathname} from 'next/navigation';
+import Image from 'next/image';
 
 
 const navigation = [
@@ -40,7 +41,9 @@ export const Navbar = () => {
               </div>
               <div className="flex flex-1 items-center justify-center  sm:justify-between">
                 <div className="flex flex-shrink-0 items-center cursor-pointer hover:scale-105" onClick={() => router.replace('/')}>
-                  <img
+                  <Image
+                    width={80}
+                    height={80}
                     className="h-12 w-auto"
                     src='/logo/mblogo.png'
                     alt="LOGO MENTE BIBLICA"
