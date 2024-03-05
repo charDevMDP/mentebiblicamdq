@@ -5,8 +5,6 @@ const SeasonCard = ({season}:any) => {
 
   const { number, image, title, description } = season
 
-  console.log('title', title)
-
   return (
     <div className='flex flex-col md:flex-row animate-fade-up items-center border-b py-8 h-1/3 md:h-[20%] w-[80%]  bg-gray-100/20 rounded-t-md md:px-5 '>
       <div className='flex md:justify-center items-center'>

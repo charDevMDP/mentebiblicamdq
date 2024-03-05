@@ -21,7 +21,7 @@ const Header = () => {
             loop: true,
           }}
         />
-      <p>CON UNA..</p>
+      <p>CON UNA...</p>
       <p className='text-azulClaro font-bold md:text-4xl lg:text-6xl'>MENTE BIBLICA</p>
       
     </div>

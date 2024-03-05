@@ -8,7 +8,7 @@ import { useRouter, usePathname} from 'next/navigation';
 
 const navigation = [
   { name: 'Escuchanos', href: '/podcasters', current: true },
-  { name: 'Temporadas', href: 'seasons', current: false },
+  { name: 'Temporadas', href: '/seasons', current: false },
   { name: 'Nosotros', href: '/about', current: false },
 ]
 
@@ -17,6 +17,8 @@ export const Navbar = () => {
 
   const router = useRouter()
   const pathname = usePathname()
+
+  console.log('path ', pathname)
 
   return (
     <Disclosure as="nav" className="bg-[#00113D] absolute z-50 w-full">
