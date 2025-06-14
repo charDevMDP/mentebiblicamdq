@@ -8,8 +8,8 @@ import Image from 'next/image';
 
 
 const navigation = [
+  { name: 'Episodios', href: '/seasons', current: false },
   { name: 'Escuchanos', href: '/podcasters', current: true },
-  { name: 'Temporadas', href: '/seasons', current: false },
   { name: 'Nosotros', href: '/about', current: false },
 ]
 
@@ -42,9 +42,9 @@ export const Navbar = () => {
               <div className="flex flex-1 items-center justify-center  sm:justify-between">
                 <div className="flex flex-shrink-0 items-center cursor-pointer hover:scale-105" onClick={() => router.replace('/')}>
                   <Image
-                    width={80}
-                    height={80}
-                    className="h-12 w-auto"
+                    width={100}
+                    height={100}
+                    className="h-16 w-auto"
                     src='/logo/mblogo.png'
                     alt="LOGO MENTE BIBLICA"
                   />
