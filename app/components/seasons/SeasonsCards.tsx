@@ -8,7 +8,7 @@ const SeasonsCards = () => {
 
   return (
     <div className='h-full w-full justify-center items-center pt-10'>
-      <div className='flex flex-col lg:w-[80%] mx-auto h-full justify-center gap-5 lg:gap-8 items-center w-full'>
+      <div className='flex flex-col xl:flex-row lg:w-[80%] mx-auto h-full justify-center gap-5 lg:gap-8 items-center w-full'>
         {
           seasons.map((season:any,idx) => {
               return <SeasonCard season={season} key={idx} />
